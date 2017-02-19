@@ -1,0 +1,23 @@
+My coding proces: 
+My proces has been a learning proces, more than a focused proces towards creating a cartoon/graffic expressing 
+an error etc. Of couse my main goal was to meet the requirements of the assignment, but in doing this I dived 
+into p5.js and its many functions which led to a lot of experimentation, errors and progress. 
+
+But to mention my actual work I was hoping to create something which did not look too newbie programmer ish. 
+To some extent I think that I have succeeded in doing this, but my skill level is of course showing. 
+I was aiming for implementing moving object, objects disappearing/showing, variables, text, if-statements and music. 
+Unfortunately I had to admit defeat (a very painful one...) with the music.
+On the basis of my failed attempt to implement music I found a way to add an error to my graffic. As you probably have experienced by now, the program shows a 'Error (404): Not Found' page, when 'enter' is pressed; right when you want to hear that funky music (damn). 
+
+So what constitutes a program...?
+- Code (and a language (js, python etc))
+- A programmer... 
+- A computer/smartphone/tablet/car etc where the code is manifested/doing its magic
+- A user is able to perform action(s)
+- Different actions is taking place (activated by user/system)
+
+Behind every strong program stands some powerful code... I guess that the word 'program' is the term used as a 'simplified' description of what the underlying code is actually doing. 
+
+ERRORS !! and reflections: 
+I would say that, within programming, an error is (or can be) a springboard to improvement or maybe just changing the expected outcome (as my error did), and by that the system gets a voice. 
+
