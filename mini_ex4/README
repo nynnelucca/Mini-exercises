@@ -1,0 +1,57 @@
+Link to my work: https://nynnelucca.github.io/Mini-exercises/mini_ex4/empty-example/mini_ex4/empty-example/
+
+1. Title of my work: "I slay" (as a reference to the parole/slogan of Beyoncé
+   (Yas queen!))  
+2. A screenshot of my work: https://github.com/nynnelucca/Mini-exercises/blob/gh-pages/mini_ex4/rome.png
+  
+3. Description of my work and how it demonstrates the notion of "feedback" or "cybernetics":
+
+My work basically consists of four things: A song(soundfile, Beyoncé "7/11"), an HTML element (the "play/pause" button), the      objects which represent the ellipse that becomes a women sign and an amplifier which measures the volume of the sound. 
+I used the 'map-function' to make the ellipse(s) become bigger and smaller in relation to the volume. I also used the 'map-function' and currentTime() to control the opacity of the objects that represents the women sign. 
+
+The feedback of my work is found in the 'play/pause' button which I have named 'I slay play' and 'No more slay' (as a reference to the lyrics of Beyoncé). The 'button' is an HTML element which the editor knows, so when you write "button = createButton("play")" and "button.mousePressed", it will automatically make a button that you can click on, but you have to define what should happen when you click on it. This I have done in my "function togglePLaying()". I wanted the button to become a 'pause' button whenever the music was playing. To do this I used an 'if-statement' and a 'not-operator' (which looks like this: !)
+I defined togglePlaying earlier on in my code with the line: "button.mousePressed(togglePlaying);" so when I write "funtion togglePlaying() it knows that I am refering to the button that I have created earlier. 
+Down below you see a section of my code demonstrating the 'play/pause' button. 
+
+function togglePlaying() {  
+    if (!song.isPlaying()) { //if the song is not (!) playing, then the song should play, when you press the button
+        song.play(); 
+        button.html("No more slay"); //when song is playing the button should say "No more slay"
+    } else { //in all other cases 
+        song.pause(); 
+        button.html("I slay play"); //when the song is paused the button should say "I slay play"
+ }
+}
+
+So my feedback is within the button, not only activating the music but also the women sign which appears in the time interval 10-15 sec (map-function). 
+
+In my last mini_ex3 I made use of an HTML element too (a timer), so I was not completely lost, when I had to change the style of my button, but it is a bit different than with normal objects like rect or ellipse. This can be used as a help: https://www.w3schools.com/jsref/dom_obj_style.asp. In difference to normal objects, you have to tell the editor every time that you want to style your HTML element. So for example if you wanted to change the color of your rect, you would write:
+
+  fill(255, 0, 0); 
+  stroke(0); 
+  rect(100, 200, 50, 60); 
+
+but if you want to change the color of your HTML button you write: 
+
+  button.style("color", "#f0f00b"); //yellow in Hex, this changes the color of the text in the button 
+  button.style("background-color", "#f0f00b"); //this changes the color of the button 
+
+I did not want the button to have any borders so I wrote: 
+  
+  button.style("border-top-style", "none");
+  button.style("border-right-style", "none");
+  button.style("border-bottom-style", "none");
+  button.style("border-left-style", "none"); 
+  
+If you want to change the position of your button/HTML element you cannot just write
+  
+  button.style("position", 500, 600); 
+
+Instead you write: 
+  
+  button.position(500, 600); 
+
+You can also find more about it on the p5.js page: http://p5js.org/reference/#/p5.Element/style
+
+JUST A HEADS-UP.... 
+When I uploaded my sketch.js to github I could not get it to work because, it had trouble loading my song. I discovered it could not access files which was named with letters containing an acute accent (´) (probably other symbols too). So when I changed the name of my song (both in my code and file) from Beyoncé.mp3 to Beyonce.mp3 it worked perfectly! 
