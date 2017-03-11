@@ -1,0 +1,14 @@
+Person_id:071097-****
+Current_computer:MacBook_ Air_(13-inch_Early_2014)
+Current_phone:iPhone_6_16_gb
+Location_Services_status:On
+Battery_Usage(last_24_hours):Youtube_41_min_on_screen(33%)/Spotify_10_min_on_screen_2,6_hrs_background(27%)/Safari_7_min_on_screen(18%)
+Current_subscription(s):Spotify/HBO_nordic/Netflix
+Gmail(yes)
+Facebook(yes)
+Instagram(yes)
+Twitter(yes) 
+Messenger(yes) 
+Strava(yes) 
+Snapchat(yes)
+Bank:Laen&spar
