@@ -1,0 +1,15 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "making a twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot2.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nynne Lucca",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5" 
+  }
+}
