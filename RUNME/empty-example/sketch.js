@@ -131,7 +131,7 @@ function Lettercounter() {
 function increment() {
     //round() = no decimals 
     letterCount = round(letterCount*1.17)+3; 
-    characterCount = round(characterCount*1.17) + 3; //+3 so the characterCount doesn't stay at 0, and so the user imediatly will see the countdown and feel stressed out 
+    characterCount = round(characterCount*1.17) + 3;  
     fill(255); 
     textfield.attribute("maxlength", letterCount);
     textSize(36); 
@@ -142,6 +142,7 @@ function increment() {
 function newText() {
     time = time+(letterCount*10); 
     setTimeout(paragraph, time); 
-    output.html(textfield.value()); //HTML function can be called to access the existing content of a DOM element or place existing content in it 
+    //HTML function can be called to access the existing content of a DOM element or place existing content in it 
+    output.html(textfield.value()); 
     console.log(time); 
 }
