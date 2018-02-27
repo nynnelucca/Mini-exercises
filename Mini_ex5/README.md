@@ -1,7 +1,3 @@
-
-![alt text](https://github.com/nynnelucca/Mini-exercises/blob/gh-pages/Mini_ex5/bladerunner.jpg?raw=true)
-<img src="https://stackoverflow.com/questions/37451064/how-to-load-a-p5-js-script-dynamically")
-
 Link to my mini_ex5 in action (please turn on volume, it might take some time to load): https://nynnelucca.github.io/Mini-exercises/Mini_ex5/empty-example/
 
 Link to my screenshot: https://github.com/nynnelucca/Mini-exercises/blob/screenshots/rome%202017-03-11%20at%2021.13.48.png
