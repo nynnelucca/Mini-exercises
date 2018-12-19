@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+}
+
+button{
+  position: relative;
+
+  top: -10%;
+  left: 45%;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #60BDBF;
+  border: 0px;
+  background-color: rgba(223, 70, 65, 0);
+  border-radius: 4px;
+  display: block;
+  cursor: pointer;
+}
+
+button:focus {
+        outline: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
